@@ -4,8 +4,8 @@ import pandas as pd
 import pandas_ta as ta  # pip install pandas_ta
 
 # ========= USER PARAMETERS =========
-INPUT_CSV_PATH = "data/EURCAD-EURGBP-EURUSD-XAUUSD_M1_20190101_20240623.csv"
-OUTPUT_CSV_PATH = "data/EURCAD-EURGBP-EURUSD-XAUUSD_M1_20190101_20240623_with_indicators.csv"
+INPUT_CSV_PATH = "/content/testj/system/data/EURCAD-EURGBP-EURUSD-XAUUSD_M1_20190101_20240623.csv"
+OUTPUT_CSV_PATH = "/content/testj/system/data/EURCAD-EURGBP-EURUSD-XAUUSD_M1_20190101_20240623_with_indicators.csv"
 
 # Example indicator settings
 RSI_LENGTH = 14
